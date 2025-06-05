@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/register.css">
+    <title>Регистрация</title>
+</head>
+<body>
+
+    <form action="/register.php" method="post">
+        <h2>Регистрация</h2>
+            <div class="field-container">
+                <input type="text" id="username" name="username" placeholder=" " required autofocus>
+                <label for="username">Имя пользователя</label>
+            </div>
+            <div class="field-container">
+                <input type="email" id="email" name="email" placeholder=" " required>
+                <label for="email">Email</label>
+            </div>
+            <div class="field-container">
+                <input type="password" id="password" name="password" placeholder=" " required>
+                <label for="password">Пароль</label>
+            </div>
+            <div class="field-container">
+                <input type="password" id="confirm_password" name="confirm_password" placeholder=" " required>
+                <label for="confirm_password">Подтверждение пароля</label>
+            </div>
+        <button type="submit">Зарегистрироваться</button>
+
+        
+        <p class="link">
+            <span>Есть аккаунт? |</span>
+            <a href="login.html">Вход</a>
+        </p>
+    </form>
+
+    
+</body>
+</html>

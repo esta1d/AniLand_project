@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/login.css">
+    <title>Вход</title>
+</head>
+<body>
+
+    <form action="/login.php" method="post">
+        <h2>Вход</h2>
+        <div class="field-container">
+            <input type="text" id="login" name="login" placeholder=" " required autofocus>
+            <label for="login">Логин / Email</label>
+        </div>
+        <div class="field-container">
+            <input type="password" id="password" name="password" placeholder=" " required>
+            <label for="password">Пароль</label>
+        </div>
+        <button type="submit">Войти</button>
+
+        <p class="link">
+            <a href="#">Забыли пароль?</a> |
+            <a href="register.html">Регистрация</a>
+        </p>
+    </form>
+
+    
+</body>
+</html>
