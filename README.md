@@ -8,13 +8,15 @@ Anilend is a Minecraft server project created by enthusiasts of the gaming commu
 
 ## Key Components of the Project
 
+![alt text](image.png)
+
 ### Server Infrastructure
 The server is hosted on dedicated hosting, ensuring high performance and minimal latency. For storing game data, a `PostgreSQL` database has been set up, providing reliability and scalability.
 
 ### Website
 The website is currently under development. Its primary features will include user registration, timely updates about events happening on the server, news, and other important information. There are also plans to allow users to download modifications and resources directly from the site.
 
-The site code can be viewed [here]()
+The site code can be viewed [here](https://github.com/esta1d/AniLand_project/tree/main/site)
 
 ### Launcher
 The launcher is a client application enabling users to connect to the server. It’s also in active development at present. This tool will support automatic client updates, file integrity checks, and convenient authentication systems.
