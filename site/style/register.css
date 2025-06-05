@@ -46,7 +46,7 @@ input[type=password] {
     width: 100%;
     padding: 20px 10px;
     font-size: 30px;
-    /* backdrop-filter: blur(50px); */
+    color: #fff;
     border: 1px solid transparent;
     border-radius: 20px;
     outline: none;
