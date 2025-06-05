@@ -1,0 +1,99 @@
+/* Основные стили */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(../img/00093-2301885186.png);
+    /* position: fixed; */
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    transform: translate(-300px);
+    width: 600px;
+    padding: 80px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ff480015;
+    border: 1px solid #afafaf;
+    backdrop-filter: blur(10px);
+    -webkit-box-shadow: 0px 0px 62px 43px rgba(255, 105, 6, 0.2);
+    -moz-box-shadow: 0px 0px 62px 43px rgba(255, 105, 6, 0.2);
+    box-shadow: 0px 0px 62px 43px rgba(255, 105, 6, 0.2);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    font-size: 60px;
+    margin-bottom: 60px;
+    color: white;
+}
+
+.field-container {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+input[type=text],
+input[type=email],
+input[type=password] {
+    background-color: #00000088;
+    width: 100%;
+    padding: 20px 10px;
+    font-size: 30px;
+    /* backdrop-filter: blur(50px); */
+    border: 1px solid transparent;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+label {
+    position: absolute;
+    top: 57%;
+    left: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: #d4d4d4;
+    transition: all 0.3s ease-in-out;
+    padding-left: 5px;
+    font-size: 30px;
+    padding-right: 5px;
+}
+
+input:focus + label,
+input:not(:placeholder-shown) + label {
+    top: 0;
+    font-size: 25px;
+    color: #ffffff;
+    border-radius: 10px;
+    background-color: #ff6d29;
+}
+
+button {
+    width: 100%;
+    padding: 20px 10px;
+    background-color: #ff6d29;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    font-size: 30px;
+    margin-top: 50px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #ff6118;
+    transform: translateY(-5px);
+    -webkit-box-shadow: 0px 0px 62px 43px rgba(255, 105, 6, 0.2);
+    -moz-box-shadow: 0px 0px 62px 43px rgba(255, 105, 6, 0.2);
+    box-shadow: 0px 0px 62px 43px rgba(255, 105, 6, 0.2);
+}
