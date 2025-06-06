@@ -8,8 +8,8 @@ body, html {
     width: 100%;
     height: 100vh;
     display: flex;
-    justify-content: space-between;
-    align-items: end;
+    align-items: center;
+    justify-content: center;
     color: white;
     font-family: Arial, sans-serif;
     overflow: hidden;
@@ -38,39 +38,95 @@ body, html {
     right: 0;
     bottom: 0;
     z-index: -1;
+    background: linear-gradient(0deg,rgba(0, 0, 0, 1) 2%, rgba(69, 159, 106, 0) 27%, rgba(36, 82, 54, 0) 79%, rgba(0, 0, 0, 1) 100%);
 }
 
 .main_page_conttent {
-    width: 100%;
+    width: 600px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid #7a7a7a;
     margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.295);
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+    padding: 40px;
+    -webkit-box-shadow: 0px 0px 20px 6px rgba(255, 0, 0, 0.2);
+    -moz-box-shadow: 0px 0px 20px 6px rgba(255, 0, 0, 0.2);
+    box-shadow: 0px 0px 20px 6px rgba(255, 0, 0, 0.2);
+    transform: translateX(300px);
 }
-
 .button_begin {
-    max-width: 100%;
+    margin-top: 40px;
 }
-
-.title, .title_end {
-    width: 500px;
-}
-
-.title {
-    padding-left: 20px;
-}
-
-.title p {
-    font-size: 40px;
-}
-
 .button_begin a {
-    text-decoration: none;
-    color: #fff;
     font-size: 40px;
     padding: 20px 30px;
+    background-color: rgba(255, 0, 0, 0.171);
+    text-decoration: none;
+    color: #fff;
     border-radius: 20px;
-    background-color: brown;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+.button_begin a:hover {
+    background-color: rgba(255, 0, 0, 0.76);
+}
+.title p {
+    font-size: 40px;
+    font-weight: 900;
+    text-shadow: 0px 0px 5px rgba(0,0,0,0.96);
+}
+.title span {
+    font-size: 25px;
+    margin-top: 20px;
+    text-shadow: 0px 0px 5px rgba(0,0,0,0.96);
+}
+
+
+
+
+
+
+
+
+
+/* Стили для фиксированного меню */
+.fixed-menu {
+    position: fixed;     
+    top: 20px;               
+    left: 0;              
+    width: 100%;          
+    color: white;      
+    padding: 10px 50px;      
+    text-align: center; 
+}
+
+
+.fixed-menu ul {
+    list-style-type: none; 
+    margin: 0;            
+    background-color: #4e4e4e44; 
+    backdrop-filter: blur(10px);
+    padding: 15px 50px;         
+}
+
+.fixed-menu li {
+    display: inline-block; 
+    margin-right: 20px;  
+}
+
+.fixed-menu a {
+    color: white; 
+    padding: 10px 20px;
+    text-decoration: none; 
+    font-size: 24px;
+}
+
+.fixed-menu a:hover {
+    background-color: #7a7a7a; 
 }

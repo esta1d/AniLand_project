@@ -1,6 +1,11 @@
+@import url('../fonts/cyberpunk.css');
+@import url('../fonts/stylesheet.css');
+@import url('../fonts/style.css');
+
 * {
     box-sizing: border-box;
     margin: 0;
+    font-family: 'BlenderProBook';
     padding: 0;
 }
 .container {
