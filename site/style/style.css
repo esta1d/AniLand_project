@@ -15,3 +15,55 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+
+
+/* Стили для фиксированного меню */
+.fixed-menu {
+    position: fixed;     
+    top: 0;             
+    left: 0;            
+    right: 0;        
+    z-index: 1000;      
+    height: 50px;     
+    line-height: 50px;   
+    background-color: rgba(19, 19, 19, 0.171); 
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease-in-out; 
+}
+
+.fixed-menu nav {
+    max-width: 1200px;   
+    margin: auto;       
+    display: flex;       
+    justify-content: center; 
+    align-items: center; 
+}
+
+.fixed-menu ul {
+    list-style-type: none;
+    margin: 0;            
+    padding: 0;          
+}
+
+.fixed-menu li {
+    display: inline-block;
+    margin-left: 20px;  
+}
+
+.fixed-menu a {
+    color: white;       
+    text-decoration: none;
+    font-size: 18px;      
+    padding: 10px 20px;   
+    border-radius: 5px;   
+    transition: background-color 0.3s ease; 
+}
+
+.fixed-menu a:hover {
+    background-color: #7A7A7A; 
+}
+
+main {
+    padding-top: 50px;
+}

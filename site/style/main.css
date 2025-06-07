@@ -38,9 +38,13 @@ body, html {
     right: 0;
     bottom: 0;
     z-index: -1;
-    background: linear-gradient(0deg,rgba(0, 0, 0, 1) 2%, rgba(69, 159, 106, 0) 27%, rgba(36, 82, 54, 0) 79%, rgba(0, 0, 0, 1) 100%);
+    background: linear-gradient(0deg,rgba(0, 0, 0, 1) 2%, rgba(69, 159, 106, 0) 22%, rgba(36, 82, 54, 0) 78%, rgba(0, 0, 0, 1) 98%);
 }
 
+.main_page_wrapper {
+    width: 600px;
+    transform: translateX(300px);
+}
 .main_page_conttent {
     width: 600px;
     margin-left: auto;
@@ -55,10 +59,9 @@ body, html {
     backdrop-filter: blur(10px);
     border-radius: 30px;
     padding: 40px;
-    -webkit-box-shadow: 0px 0px 20px 6px rgba(255, 0, 0, 0.2);
-    -moz-box-shadow: 0px 0px 20px 6px rgba(255, 0, 0, 0.2);
-    box-shadow: 0px 0px 20px 6px rgba(255, 0, 0, 0.2);
-    transform: translateX(300px);
+    -webkit-box-shadow: 0px 0px 19px 6px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 0px 19px 6px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 19px 6px rgba(0, 0, 0, 0.2);
 }
 .button_begin {
     margin-top: 40px;
@@ -75,6 +78,9 @@ body, html {
 }
 .button_begin a:hover {
     background-color: rgba(255, 0, 0, 0.76);
+    -webkit-box-shadow: 0px 0px 36px 9px rgba(255, 0, 0, 0.5);
+    -moz-box-shadow: 0px 0px 36px 9px rgba(255, 0, 0, 0.5);
+    box-shadow: 0px 0px 36px 9px rgba(255, 0, 0, 0.5);
 }
 .title p {
     font-size: 40px;
@@ -86,47 +92,74 @@ body, html {
     margin-top: 20px;
     text-shadow: 0px 0px 5px rgba(0,0,0,0.96);
 }
-
-
-
-
-
-
-
-
-
-/* Стили для фиксированного меню */
-.fixed-menu {
-    position: fixed;     
-    top: 20px;               
-    left: 0;              
-    width: 100%;          
-    color: white;      
-    padding: 10px 50px;      
-    text-align: center; 
-}
-
-
-.fixed-menu ul {
-    list-style-type: none; 
-    margin: 0;            
-    background-color: #4e4e4e44; 
+.online {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.295);
     backdrop-filter: blur(10px);
-    padding: 15px 50px;         
+    border-radius: 20px;
+    border: 1px solid #7a7a7a;
+    -webkit-box-shadow: 0px 0px 19px 6px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 0px 19px 6px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 19px 6px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+.online ul li {
+    transform: translateX(30px);
+    font-size: 30px;
+}
+.online ul li::marker {
+    color: rgb(0, 202, 0); /* Устанавливаем цвет маркера зелёным */
+    /* font-size: 30px; */
 }
 
-.fixed-menu li {
-    display: inline-block; 
-    margin-right: 20px;  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main_page_2 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
 }
 
-.fixed-menu a {
-    color: white; 
-    padding: 10px 20px;
-    text-decoration: none; 
-    font-size: 24px;
+/* Добавляем фоновое изображение */
+.main_page_2::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-image: url('../img/main2.png');
+    background-size: cover;
+    background-position: center;
 }
 
-.fixed-menu a:hover {
-    background-color: #7a7a7a; 
+/* Радиальное затемнение */
+.main_page_2::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background: linear-gradient(0deg,rgba(0, 0, 0, 1) 2%, rgba(69, 159, 106, 0) 22%, rgba(36, 82, 54, 0) 78%, rgba(0, 0, 0, 1) 98%);
 }
