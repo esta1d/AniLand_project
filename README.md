@@ -1,7 +1,7 @@
 # Site_for_AniLand_project
 AniLand Minecraft is a unique Minecraft server specifically designed for anime fans and enthusiasts of Japanese culture. Here, every player can immerse themselves in the atmosphere of their favorite anime series, enjoy vibrant worlds, and experience unique gameplay opportunities.
 
-To view the site, you can follow the following [link](http://64.188.99.24:8080/index.html). (There will be a warning that the sat is without SSL verification)
+To view the site, you can follow the following ***[link](http://64.188.99.24:8080/index.html)***. (There will be a warning that the sat is without SSL verification)
 
 ![alt text](site/img/main2.png)
 
