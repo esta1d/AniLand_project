@@ -1,33 +1,35 @@
 # Site_for_AniLand_project
-AniLand Minecraft is a unique Minecraft server specifically designed for anime fans and enthusiasts of Japanese culture. Here, every player can immerse themselves in the atmosphere of their favorite anime series, enjoy vibrant worlds, and experience unique gameplay opportunities.
+
+***AniLand Project* — Development of an Anime-Inspired Minecraft Server**
+
+AniLand is a Minecraft server project being developed specifically for fans of anime and Japanese culture. The core idea behind the project is to offer players a unique atmosphere inspired by beloved genres through engaging gameplay mechanics and original elements.
+
 
 To view the site, you can follow the following ***[link](http://64.188.99.24:8080/index.html)***. (There will be a warning that the sat is without SSL verification)
 
 ![alt text](site/img/main2.png)
 
 
-## Project Description for Minecraft Server Anilend
+## Current Development Stages
 
-Anilend is a Minecraft server project created by enthusiasts of the gaming community. The main goal of this project is to provide players with a stable game environment that offers high performance and functionality.
+**Server Infrastructure**
+* Developing a high-performance infrastructure using dedicated servers with minimal lag.
+* Creating a custom PostgreSQL database for reliable storage of game data and efficient interaction between components.
 
-## Key Components of the Project
+**Gameplay Modifications**
+* Selecting various thematic mods to enhance the anime-inspired world within Minecraft.
+* Balancing and integrating these mods to ensure maximum comfort and enjoyment for players.
 
-![alt text](image.png)
+**Website & Information Support**
+* Building an official website that provides access to registration, news, updates, and essential materials.
+* Enabling direct downloads of resources and modifications via the website.
 
-### Server Infrastructure
-The server is hosted on dedicated hosting, ensuring high performance and minimal latency. For storing game data, a `PostgreSQL` database has been set up, providing reliability and scalability.
+**Client Application (Launcher)**
+* Developing a custom launcher written in C# to facilitate quick connection to the server, auto-updates, and file integrity checks.
+* Implementing a secure and convenient authentication system for easy login.
 
-### Website
-The website is currently under development. Its primary features will include user registration, timely updates about events happening on the server, news, and other important information. There are also plans to allow users to download modifications and resources directly from the site.
+## Future Plans
 
-The site code can be viewed [here](https://github.com/esta1d/AniLand_project/tree/main/site)
-
-### Launcher
-The launcher is a client application enabling users to connect to the server. It’s also in active development at present. This tool will support automatic client updates, file integrity checks, and convenient authentication systems.
-
-### Development Prospects
-The Anilend project continues to grow actively, with developers planning new game modes, performance improvements, and additional player-friendly features. The team aims to create a cozy community where every player can find something they enjoy and have fun playing together with friends.
-
-The project is open to anyone who wants to join and contribute to its ongoing growth.
+The development team intends to further improve functionality, create administrative tools, and increase interactivity based on player feedback. Continuous research into audience needs ensures that all suggestions and requests are considered during implementation.
 
 ###
